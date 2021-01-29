@@ -14,8 +14,9 @@ We want you to develop an application that processes text and supplies a summary
 ### Statistics Requirements
  - Raw size, in bytes of the text (assuming UTF-8 encoding if specified).
  - Number of words in the text.
- - Distinct words in the text and the number of occurences of each.
- - Punctuation is to be ignored when counting words (and distinct words).
+ - List of distinct words in the text and the number of occurences of each.
+ - All punctuation is to be ignored when counting words (and distinct words).
+ - Examples of punctuation are members of the following categories in [UnicodeCategory](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.unicodecategory?view=netcore-3.0): `ConnectorPunctuation`, `DashPunctuation`, `OpenPunctuation`, `ClosePunctuation`, `InitialQuotePunctuation`, `FinalQuotePunctuation`, or `OtherPunctuation`. 
  - Words are defined as any sequence of alphanumeric characters containing no whitespace.
 
 ### Extra considerations

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sage-codingchallenge-domain", "src\sage-codingchallenge-domain\sage-codingchallenge-domain.csproj", "{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4CCCDAD-A3FD-4802-8AA7-E506AEBD1A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sage-codingchallenge-host", "src\sage-codingchallenge-host\sage-codingchallenge-host.csproj", "{F5267CBA-8A6A-47EE-A42F-C96C82A4C299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5267CBA-8A6A-47EE-A42F-C96C82A4C299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5267CBA-8A6A-47EE-A42F-C96C82A4C299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5267CBA-8A6A-47EE-A42F-C96C82A4C299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5267CBA-8A6A-47EE-A42F-C96C82A4C299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8F5B64C-7CE0-47FE-949B-A8D547D6CD95} = {E4CCCDAD-A3FD-4802-8AA7-E506AEBD1A78}
+		{F5267CBA-8A6A-47EE-A42F-C96C82A4C299} = {E4CCCDAD-A3FD-4802-8AA7-E506AEBD1A78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB87DCEE-51A6-499D-9F14-1B3727482B9B}
+	EndGlobalSection
+EndGlobal
